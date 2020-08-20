@@ -1,0 +1,101 @@
+@media screen and (max-width: 1200px){
+    .ham-b{
+        display: block;
+        top: 10%;
+    }
+    /* Home page */
+    .greeting{
+        font-size: 20px;
+    }
+
+    .center{
+        text-align: center;
+        font-size: 11px;
+    }
+
+    #second{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section-img{
+        width: 100%;
+    }
+
+    .section-img img{
+        width: 150px;
+        height: 150px;
+    }
+
+    #navbar{
+        transition: all .8s ease;
+    }
+
+    .navbar{
+        height: 200px;
+    }
+
+    .navlist{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navbar-res{
+        height: 60px; 
+    }
+
+    .navlist li{
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .li-res{
+        visibility: hidden;
+    }
+
+    #foot{
+        padding: 10px;
+    }
+
+/* Game section, new game collection */
+    .g-boxes{
+        width: 95%;
+    }
+
+    .gbox-center{
+        font-size: 1.125rem;
+        text-align: center;
+        color: black;
+    }
+
+    .g-boxes img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .g-container{
+        flex-direction: column;
+    }
+
+    /* About page */
+    .text-big{
+        font-size: 1.5rem;
+    }
+
+    .me-h5{
+        font-size: .9rem;
+    }
+
+    /* Contact page */
+    .contact-form input{
+        margin: 5px auto;
+    }
+
+    .contact-form textarea{
+        margin: 5px auto;
+    }
+
+    .con-header{
+        font-size: 1.5rem;
+    }
+}
